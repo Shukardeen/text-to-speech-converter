@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/tabIcon.png" />
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="mainBox">
+        <div class="heading">
+          <img src="./assets/icon.png" />
+          <h2>Convert your text to speech</h2>
+        </div>
+
+        <textarea
+          placeholder="Write your text here..."
+          id="text-input"
+        ></textarea>
+
+        <div class="buttons">
+          <select id="voice-select"></select>
+          <button id="playBtn" class="btn">Play</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
