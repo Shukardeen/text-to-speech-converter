@@ -27,14 +27,6 @@ A modern, responsive web application that converts text to speech using the Web 
 
 2. **Open the project**
    - Simply open `index.html` in your web browser
-   - Or use a local development server:
-     ```bash
-     # Using Python
-     python -m http.server 8000
-     
-     # Using Node.js (if you have http-server installed)
-     npx http-server
-     ```
 
 3. **Access the application**
    - Navigate to `http://localhost:8000` (or your preferred port)
